@@ -1,2 +1,18 @@
-# Project exclude paths
-/venv/
+# Pyre type checker
+.idea/
+.pyre/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.py_cache/
+.pytest_cache/
+src/__pycache__/
+tests/__pycache__/
